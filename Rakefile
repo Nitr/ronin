@@ -4,6 +4,7 @@ require 'rubygems'
 require 'hoe'
 require 'hoe/signing'
 require './tasks/spec.rb'
+require './tasks/yard.rb'
 require './lib/ronin/version.rb'
 
 Hoe.spec('ronin') do |p|
